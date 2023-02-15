@@ -1,0 +1,64 @@
+.scroch {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  margin-bottom: 150px;
+}
+
+.scroch h3 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #22343D;
+  margin-bottom: 8px;
+}
+
+.scroch h2 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: #22343D;
+  margin-bottom: 23px;
+}
+
+.scroch p {
+  margin-bottom: 30px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #22343D;
+}
+
+.scroch ul li {
+  margin-bottom: 30px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.scroch ul li p {
+  margin-bottom: 0;
+}
+
+.scroch .scrich_img .img_2 {
+  display: none;
+}
+
+@media screen and (max-width: 576px) {
+  .scroch {
+    margin-bottom: 100px;
+    display: block;
+    justify-content: center;
+  }
+  .scroch .scrich_img .img_2 {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  .scroch .scrich_img .img_1 {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=collaborative.css.map */

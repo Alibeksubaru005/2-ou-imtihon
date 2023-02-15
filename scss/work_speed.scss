@@ -1,0 +1,102 @@
+@import "./var_color.scss";
+.work_speed{
+    padding: 25px 0 114px;
+    display: flex;
+    align-items: center;
+    .work_text{
+        h1{
+            font-weight: 700;
+font-size: 40px;
+line-height: 60px;
+color: $darck_black ;
+margin-bottom: 18px;
+        }
+        p{
+            font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+width: 456px;
+            color: $darck_black;
+            margin-bottom: 45px;
+        }
+        div{
+            display: flex;
+            align-items: center;
+            gap:20px ;
+            button{
+               
+                background-color: rgba(240, 248, 255, 0);
+                border: none;
+            span{
+                display: flex;
+                align-items: center;
+                gap: 8.5px;
+                text-decoration:none ;
+                color: $darck_blue;
+                font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+transition: all .5s ease-in-out;
+padding: 15px 41px;
+display: inline-block;
+border-radius: 4px;
+            }
+           
+            }  
+         span:hover{
+             text-decoration: underline;
+                color: $darck_whiat; background-color: $darck_blue;
+            }
+            span:active{
+                color: $darck_whiat; background-color: $darck_black_2;
+            }
+           
+            
+        }
+    }
+    .work_img{
+        .work_img_1{
+            display: block;
+        }
+        .work_img_2{
+            display: none;
+        }
+    }
+}
+@media screen and (max-width:576px){
+    .work_speed{
+        display: block;
+        text-align: center;
+        .work_text{
+            h1{
+                font-size: 36px;
+                width: 360px;
+                margin: 0 auto 16px;
+            }
+            p{
+                width: 326px;
+                margin: 0 auto;
+                margin-bottom: 30px;
+            }
+
+            div{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+               
+            }
+        }
+        .work_img{
+            text-align: center;
+            flex-direction: column;
+            .work_img_1{
+                display: none;
+            }
+            .work_img_2{
+                display: block;
+                margin: 0 auto;
+            }
+        }
+    }
+
+}

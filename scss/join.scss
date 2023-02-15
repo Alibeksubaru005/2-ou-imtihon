@@ -1,0 +1,43 @@
+@import "./var_color.scss";
+.join{
+    padding: 14px 36px 0 51px ;
+    display: flex;align-items: center;
+    justify-content: space-between;
+    background-color: $darck_blue;
+    border-radius: 32px;
+    margin-bottom: 150px;
+    h2{ 
+        width: 510px;
+        font-weight: 600;
+font-size: 32px;
+line-height: 151.4%;
+color: $darck_whiat;
+margin-bottom: 98px;
+    }
+    a{
+        font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+color: $darck_blue;
+        padding: 13px 33px 7px;
+        background-color: $darck_whiat;
+        border-radius: 8px;
+}
+}
+@media screen and (max-width:576px){
+    .join{
+        display: block;
+        justify-content: center;
+        margin-bottom: 100px;
+        h2{
+            width: 328px;
+            text-align: center;
+        }
+        a{
+            display:block;
+            margin: 0 auto;
+            text-align: center;
+            margin-bottom: 42px;
+        }
+    }
+}

@@ -1,0 +1,156 @@
+@import "./var_color.scss";
+.peopie{
+    background-image: url(../img/halifg_scrrol_bgi_img.svg);
+    background-repeat: no-repeat;
+    background-position: -50px 0;
+    padding: 70px 0;
+    h2{
+        text-align: center;
+        font-weight: 700;
+font-size: 32px;
+line-height: 48px;
+color: $darck_black;
+margin-bottom: 16px;
+    }
+    p{
+        text-align: center;
+        width: 542px;
+        margin: 0 auto;
+        font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+margin-bottom: 9px;
+    }
+    ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 48px;
+        li{
+             margin: 0 0;
+            .box_1{
+                display: flex;
+                align-items: start;
+                gap: 41px;
+                span{
+                    
+                    padding: 15px 25px;
+background-color: #fff;
+box-shadow: 0px 2px 15px rgba(23, 58, 86, 0.1);
+border-radius: 26.5px;
+                    font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: $darck_black;
+                }
+            }
+            .box_2{
+                display: flex;
+                align-items: center;
+                gap: 47px;
+                span{
+                    padding: 15px 30px;
+                    background-color: #fff;
+box-shadow: 0px 2px 15px rgba(23, 58, 86, 0.1);
+border-radius: 26.5px;
+                    font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: $darck_black;
+                }
+            }
+            .box_3{
+                display: flex;align-items: center;
+                gap: 47px;
+                span{
+                    padding: 15px 22px;
+                    background-color: #fff;
+                    box-shadow: 0px 2px 15px rgba(23, 58, 86, 0.1);
+                    border-radius: 26.5px;
+                                        font-weight: 500;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: $darck_black;
+                }
+                
+            }
+            .box_4{
+                    display: flex;align-items: center;
+                    gap: 47px;
+                    span{
+                        padding: 15px 22px;
+                        background-color: #fff;
+                        box-shadow: 0px 2px 15px rgba(23, 58, 86, 0.1);
+                        border-radius: 26.5px;
+                                            font-weight: 500;
+                        font-size: 16px;
+                        line-height: 24px;
+                        color: $darck_black;
+                    }
+            }
+        }
+    }
+    div{
+        margin: 0 auto;
+        display: flex;align-items: center;
+        justify-content: center;
+        a{
+            transition: all .5s ease-in-out;
+            border-radius: 4px;
+            font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: $darck_blue;
+    padding: 15px 30px;
+    background-color: $darck_whiat;
+        }
+        a:hover{
+            background-color: $darck_blue;
+            color: $darck_whiat;
+        }
+    }
+}
+@media screen and (max-width:576px){
+    .peopie{
+        background-image: none;
+        h2{
+            width: 348px;
+        }
+        p{
+            width: 338px;
+            margin:0 0 40px;
+        }
+        ul{
+            display: block;
+            justify-content: center;
+            gap: 0;
+            li{
+                display: block;
+                justify-content: space-between;
+                
+                .box_1,.box_2,.box_3,.box_4{
+                    margin: 0 0;
+                }
+               .box{
+                    display: flex;
+                    gap:120px;   
+                   img{
+                       width: 89px;
+                   }
+                   margin: 0 0 32px;
+                span{
+                    background-color: rgba(255, 255, 255, 0);
+                    box-shadow: none;
+                    width: 203px;
+                }
+               }
+            }
+        }
+        div{
+            a{
+                color: #fff;
+                background-color: $darck_blue;
+            }
+        }
+    }
+}

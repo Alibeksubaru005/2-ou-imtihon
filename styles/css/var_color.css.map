@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../../scss/var_color.scss"
+    ],
+    "names": [],
+    "file": "var_color.css"
+}

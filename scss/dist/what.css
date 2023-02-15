@@ -1,0 +1,88 @@
+.what {
+  margin-bottom: 150px;
+}
+
+.what h2 {
+  color: #22343D;
+  text-align: center;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 57px;
+}
+
+.what p {
+  color: #22343D;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  width: 465px;
+  margin-bottom: 50px;
+}
+
+.what ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.what ul li {
+  padding: 28px 26px 23px 28px;
+  border: 1px solid #DEDEDE;
+  border-radius: 5px;
+}
+
+.what ul li img {
+  margin-bottom: 16px;
+}
+
+.what ul li h3 {
+  font-weight: 400;
+  margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 28px;
+  color: #afafaf;
+  width: 275px;
+}
+
+.what ul li div {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.what ul li div img {
+  margin-bottom: 0;
+}
+
+.what ul li div div {
+  display: block;
+}
+
+.what ul li div div h4 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #02897A;
+}
+
+.what ul li div div h5 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+@media screen and (max-width: 576px) {
+  .what p {
+    width: 323px;
+  }
+  .what ul {
+    display: block;
+  }
+  .what ul li {
+    margin-bottom: 32px;
+  }
+}
+
+/*# sourceMappingURL=what.css.map */

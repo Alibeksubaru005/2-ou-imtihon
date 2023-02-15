@@ -1,0 +1,115 @@
+@import "./var_color.scss";
+.content{
+    margin-bottom: 150px;
+    h2{
+        font-weight: 700;
+font-size: 34px;
+line-height: 51px;
+color: $darck_black;
+    }
+    p{
+        font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+color: $darck_black;
+margin-bottom: 32px;
+    }
+    
+    ul{
+        display: flex;
+        align-items: center;
+        gap: 31px;
+        margin-bottom: 64px;
+        li{
+             border: solid 2px #eee;
+            .text{
+                    padding: 24px 30px 40px 24px;
+                p{
+                    font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+color: $darck_black;
+span{
+    font-weight: 600;
+
+}
+                }
+                h3{
+                    font-weight: 700;
+font-size: 24px;
+line-height: 40px;
+color: $darck_black;
+                }
+                
+            }
+        }
+        li:hover h3,.box_1{
+        
+            color: $darck_blue;
+        }
+        li h3:hover .box_1{
+            background-color: $darck_blue
+
+        }
+        li:active h3{
+            color: $darck_blue;
+
+
+        }
+        li h3:active .box_1{
+               background-color: $darck_blue
+        } 
+    }
+    .slide{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        .box_1{
+            width: 16px;
+height: 16px;
+left: 665.5px;
+top: 4555px;
+
+background: #efefef;
+border-radius: 100%;
+        }
+        .box_1:hover{
+            background-color: $darck_blue;
+        }
+    }
+}
+@media screen and (max-width:576px){
+    .content{
+        margin-bottom: 61px;
+        h2{
+            text-align: center;
+        }
+        p{
+            text-align: center;
+            width: 349px;
+        }
+        ul{
+            display: block;
+            li{  border: none;
+                margin: 0 auto 16px;
+                .text{
+                    padding: 24px 40px 54px 0;
+                    p{
+                        margin:0 0 12px;
+                        text-align: left;
+                    }
+                    h3{
+                        width: 294px;
+                    }
+                }
+                
+            }
+        }
+        .slide{}
+        .box_1{
+            display: none;
+        }
+    }
+
+}

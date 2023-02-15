@@ -1,0 +1,73 @@
+@import "./var_color.scss";
+.produck{
+    h2{
+        font-weight: 700;
+font-size: 32px;
+line-height: 48px;
+color: $darck_black;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 57px;
+width: 520px;
+    }
+    ul{
+        margin-bottom: 60px;
+        display: flex;
+        align-items: center;
+        gap: 46px;
+        li{
+            h3{
+                font-weight: 600;
+                font-size: 22px;
+                line-height: 33px;
+                margin-bottom:  13px;
+                color: $darck_black;
+            }
+            p{
+                color: $darck_black;
+
+                font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+            }
+        }
+    }
+    a{ 
+        padding: 15px 32px;
+        color: $darck_blue;
+        background-color: rgba(240, 248, 255, 0);
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        display: block;
+        text-align: center;
+        width: 175px;
+        margin: 0 auto;
+        border-radius: 4px;
+        transition: all .5s ease-in-out;
+        margin-bottom: 90px;
+    }
+    a:hover{
+        background-color: $darck_blue;
+        color: $darck_whiat;
+    }
+}
+@media screen and (max-width:576px){
+    .produck{
+        text-align: center;
+        h2{
+            width: 300px;
+        }
+        ul{
+            text-align: center;
+            display: block;
+            li{
+                margin-bottom: 32px;
+                p{
+                    width: 220px;
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["var_color.scss"],"sourcesContent":["$darck_black:#22343D;\r\n$darck_blue:#02897A;\r\n$darck_blich:#BCD0E5;\r\n$darck_black_2:#173A56;\r\n$darck_whiat:#ffffff;\r\n$maxWiht:500px;"],"file":"var_color.css"}

@@ -1,0 +1,106 @@
+@import "./var_color.scss";
+.footer{
+    ul{
+        margin-bottom: 16px;
+        display: flex;
+        justify-content: space-between;
+        .li_1{
+            img{
+                margin-bottom: 25px;
+            }
+            div{
+                display: flex;
+                align-items: center;
+               gap: 16px;
+                img{
+                    margin-bottom: 0;
+                }
+            }
+        }
+        .li_2{
+            h3{
+                font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+color: $darck_black;
+margin-bottom: 8px;
+            }
+            a{
+                font-weight: 400;
+font-size: 16px;
+line-height: 35px;
+                display: block;
+            }
+        }
+        .li_3{
+            p{
+                font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+width: 280px;
+margin-bottom: 34px;
+            }
+
+            input{
+                display: block;
+                margin-bottom: 21px;
+                width: 280px;
+                padding: 20px;
+                height: 48px;
+                border: 1px solid #BCD0E5;
+border-radius: 4px;
+            }
+            a{  
+                padding: 8px 0;
+                border-radius: 4px;
+                text-align: center;
+                display: block;
+                width: 131px;
+                color: $darck_whiat;
+                background-color: $darck_blue;
+                font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+            }
+        }
+    }
+    h4{
+        font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+color: $darck_black;
+text-align: center;
+margin-bottom: 46px;
+    }
+}
+@media screen and (max-width:576px){
+    .footer{
+        ul{
+            text-align: center;
+            display: block;
+            li{                
+                margin-bottom: 32px;
+            }
+            .li_1{
+                div{
+                    display: flex;
+                    justify-content: center;
+                }
+            
+            }
+            .li_3{
+                p{
+                    width: 280px;
+                    text-align: center;
+                    margin: 0 auto 34px;
+                }
+                input{
+                    margin: 0 auto 21px;
+                }
+                a{
+                    margin: 0 auto 44px;
+                }
+            }
+        }
+    }
+}

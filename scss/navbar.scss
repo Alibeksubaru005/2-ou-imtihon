@@ -1,0 +1,71 @@
+@import "./var_color.scss";
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 19px 0;
+    justify-content: space-between;
+    .navbar_box{
+
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        ul{
+            display: flex;
+            gap: 30px;
+            li{
+                a{
+                    font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+color: $darck_black;
+                }
+                a:hover{
+                    font-weight: 600;
+                }
+                a:active{
+                    font-weight: 600;
+                }
+            }
+        }
+        .login{
+            display: flex;
+            align-items: center;
+            gap: 24px;
+            a{
+                color: $darck_black_2;
+                font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+padding: 10px 22.5px;
+display: inline-block;
+background-color: rgba(250, 235, 215, 0);border: 1px solid $darck_blich;
+border-radius: 4px;
+transition: all .5s ease-in-out;
+            }
+            a:hover{
+                background-color: $darck_blue;
+                border: 1px solid $darck_blue;
+                color: $darck_whiat;
+            }
+            a:active{
+                background-color: $darck_blue;
+                border: 1px solid $darck_blue;
+                color: $darck_whiat;
+            }
+
+        }
+       
+    } 
+    .burger{
+            display: none;
+        }
+}
+@media screen and (max-width:576px) {
+.navbar{
+    .navbar_box{
+        display: none;
+    }
+    .burger{
+        display: block;
+    }
+}}

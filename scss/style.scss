@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.continer{
+    width: 1130px;
+    padding: 0 20px;
+    margin: 0 auto;
+    ul{
+        list-style: none;
+        
+    }
+    a{
+        text-decoration: none;  
+        color: inherit;
+    }
+}
+@media screen and (max-width:576px){
+    .continer{
+        width: 500px;
+        padding: 0 20px;
+        margin: 0 auto;
+    }
+}
+body{
+  
+    font-family: 'Poppins', sans-serif;
+}
+@import "./var_color.scss"; 
+@import "./navbar.scss";
+@import "./work_speed.scss";
+@import "./produck.scss";
+@import "./magnament.scss";
+@import "./collaborative.scss";
+@import "./peopil.scss";
+@import "./contents.scss";
+@import "./price_table.scss";
+@import "./what.scss";
+@import "./join.scss";
+@import "./footr.scss";
